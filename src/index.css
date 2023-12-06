@@ -6,6 +6,7 @@ body {
   background-color: rgb(241, 247, 244);
   display: flex;
   flex-direction: column;
+  color: rgb(9, 1, 54);
 }
 header {
   text-align: center;
@@ -19,8 +20,12 @@ header {
   border-radius: 12px;
   margin: auto;
   margin-top: 50px;
-  background-color: rgb(193, 193, 243);
+  background-color: rgb(185, 185, 241);
+  background: #2980b9;
+  background: -webkit-linear-gradient(to bottom, #ffffff, #6dd5fa, #2980b9);
+  background: linear-gradient(to bottom, #ffffff, #6dd5fa, #2980b9);
 }
+
 .centerDiv {
   text-align: center;
 }
